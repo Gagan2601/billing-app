@@ -34,11 +34,11 @@
     "**/*.jsx",
     "**/*.ts",
     "**/*.tsx",
-    "../../apps/invoice/.next/types/**/*.ts",
-    "../../dist/apps/invoice/.next/types/**/*.ts",
+    "../../apps/inventory/.next/types/**/*.ts",
+    "../../dist/apps/inventory/.next/types/**/*.ts",
     "next-env.d.ts",
     ".next/types/**/*.ts"
-  ],
+, "../../libs/core/src/lib/components/Button.tsx", "../../libs/core/src/lib/components/Card.tsx", "../../libs/core/src/lib/components/DynamicForm.tsx", "../../libs/core/src/lib/components/Input.tsx", "../../libs/core/src/lib/components/Modal.tsx", "../../libs/core/src/lib/components/Table.tsx", "../../libs/inventory-library/src/lib/components/ProductForm.tsx", "../../libs/inventory-library/src/lib/components/SellerForm.tsx"  ],
   "exclude": [
     "node_modules",
     "jest.config.ts",

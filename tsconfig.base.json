@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@billing-app/core": ["libs/core/src/index.ts"],
+      "@billing-app/inventory-library": ["libs/inventory-library/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
