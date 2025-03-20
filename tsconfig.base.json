@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@billing-app/core": ["libs/core/src/index.ts"],
+      "@billing-app/database": ["libs/database/src/index.ts"],
       "@billing-app/inventory-library": ["libs/inventory-library/src/index.ts"]
     }
   },
