@@ -1,0 +1,13 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "This library was generated with [Nx](https://nx.dev).",
+  "main": "index.js",
+  "scripts": {
+    "prisma:merge": "node prisma/merge.js",
+    "prisma:generate": "npm run prisma:merge && npx prisma generate",
+    "prisma:migrate": "npm run prisma:merge && npx prisma migrate dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
